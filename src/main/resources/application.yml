@@ -1,10 +1,11 @@
 spring:
   profiles:
-    active: firstDataSource, remote
+    active:
+    - firstDataSource
 server:
   baseUrl: http://localhost:3000/
   imageUrl: images/
-  imageServerDir : C:/images/lab07/
+  imageServerDir : E:/SE331/images/lab07/
 ---
 spring:
   profiles: local
